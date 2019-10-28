@@ -1,7 +1,7 @@
 header.masthead {
   position: relative;
   background-color: $gray-800;
-  background: url('../img/bg-masthead.jpg') no-repeat center center;
+  background: url('https://s3-us-west-1.amazonaws.com/samgluss.net/img/afm/2019/round4/sean/850_0407_BW.jpg') no-repeat center center;
   @include background-cover;
   padding-top: 8rem;
   padding-bottom: 8rem;
@@ -21,7 +21,8 @@ header.masthead {
     padding-top: 12rem;
     padding-bottom: 12rem;
     h1 {
-      font-size: 3rem;
+      font-size: 4rem;
+      text-shadow: 2px 0 0 #000, 0 -2px 0 #000, 0 2px 0 #000, -2px 0 0 #000;
     }
   }
 }
