@@ -58,6 +58,7 @@ header.masthead h1 {
 
 .showcase .showcase-img {
   min-height: 30rem;
+  background-position: center center;
   background-size: cover;
 }
 
@@ -67,17 +68,18 @@ header.masthead h1 {
   }
 }
 
-.testimonials {
+.sponsors {
   padding-top: 7rem;
   padding-bottom: 7rem;
 }
 
-.testimonials .testimonial-item {
+.sponsors .sponsor-item {
   max-width: 18rem;
 }
 
-.testimonials .testimonial-item img {
+.sponsors .sponsor-item img {
   max-width: 15rem;
+  max-height: 8rem;
 }
 
 footer.footer {
