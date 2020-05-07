@@ -1,6 +1,6 @@
 /*!
  * Start Bootstrap - Landing Page v5.0.7 (https://startbootstrap.com/template-overviews/landing-page)
- * Copyright 2013-2019 Start Bootstrap
+ * Copyright 2013-2020 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-landing-page/blob/master/LICENSE)
  */
 
@@ -49,6 +49,22 @@ header.masthead h1 {
   header.masthead h1 {
     font-size: 4rem;
     text-shadow: 2px 0 0 #000, 0 -2px 0 #000, 0 2px 0 #000, -2px 0 0 #000;
+  }
+}
+
+.blog-post .blog-post-text {
+  padding: 3rem;
+}
+
+.blog-post .blog-post-img {
+  min-height: 30rem;
+  background-position: center center;
+  background-size: cover;
+}
+
+@media (min-width: 768px) {
+  .blog-post .showcase-text {
+    padding: 7rem;
   }
 }
 
